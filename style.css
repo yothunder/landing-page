@@ -1,0 +1,128 @@
+* {
+    border: 2px solid red;
+}
+
+ul, .header .top, .header .down {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    gap: 32px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding:8px 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 200px;
+    padding-top: 0px;
+}
+
+.header .top {
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.header .top .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .down {
+    gap: 48px;
+}
+
+.header .down .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.header .down img {
+    max-width: 50%;
+}
+
+.header .down .left .heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header .down .left .content {
+    font-size: 18px;
+    columns: #e5e7eb;
+}
+
+/*==================================*/
+
+.info {
+    padding: 100px 250px;
+    padding-top:0px;
+    text-align: center;
+}
+
+.info .heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+
+.box img {
+    width: 100%;
+    border: 20px;
+    border-radius: 5px;
+}
+
+/*==================================*/
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px 250px;
+}
+
+/*==================================*/
+
+.call {
+    background-color: white;
+    text-align: center;
+}
+
+.callbutton {
+    border-radius: 5px;
+    background-color: #3882f6;
+    margin: 50px 200px;
+}
+
+.call .callbutton button {
+    border:2px #f9faf8;
+}
+
+/*==================================*/
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: White;
+    padding: 20px;
+}
