@@ -1,6 +1,8 @@
+/*
 * {
     border: 2px solid red;
 }
+*/
 
 ul, .header .top, .header .down {
     display: flex;
